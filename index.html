@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Academy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+    <link rel="stylesheet" href="mystyle.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <h2>Random Academy</h2>
+        </div>
+
+        <div class="header-list">
+            <ul>
+                <li>
+                    <a href="#pilih-disini">Pelajaran</a>
+                </li>
+                <li>
+                    <a href="#">Daftar</a>
+                </li>
+                <li>
+                    <a href="#">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="judul">
+        <h1>Random &ensp;Academy</h1>
+        <p>Pelajari ilmu apapun yang kamu inginkan.</p>
+        <p>Broadcasting video pembelajaranmu.</p>
+        <a href="#pilih-disini">Mulai Sekarang</a>
+    </div>
+
+    <div class="konten-utama" id="pilih-disini">
+        <h1>Pilihlah Materi Yang Ingin Ditampilkan:</h1>
+        <div class="pilihan-materi">
+            <h3>Kategori materi apa yang ingin ditampilkan?
+                <br>(Pilih 4 kategori saja)
+            </h3>
+            <p class="alert"></p>
+            <p><input type="checkbox" value="matematika">&nbsp; Matematika</p>
+            <p><input type="checkbox" value="keislaman">&nbsp; Keislaman</p>
+            <p><input type="checkbox" value="programming">&nbsp; Programming</p>
+            <p><input type="checkbox" value="softskills">&nbsp; Soft Skills</p>
+            <p><input type="checkbox" value="b-indonesia">&nbsp; Bahasa Indonesia</p>
+            <p><input type="checkbox" value="b-inggris">&nbsp; Bahasa Inggris</p>
+            <p><input type="checkbox" value="b-arab">&nbsp; Bahasa Arab</p>
+            <p><input type="checkbox" value="kti">&nbsp; KTI (Karya Tulis Ilmiah)</p>
+            <button onclick="jsHtmlDom.pilihKategori()">Tampilkan</button>
+        </div>
+
+        <ul class="tombol-materi">
+            <li class="materi1"></li>
+            <li class="materi2"></li>
+            <li class="materi3"></li>
+            <li class="materi4"></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="footer-title">
+            <h3>Random<br>Academy</h3>
+        </div>
+
+        <div class="footer-list">
+            <ul>
+                <li>
+                    <a href="#">Tentang</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Hubungi Kami</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

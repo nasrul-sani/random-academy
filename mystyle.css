@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(16, 155, 248, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-title {
+    float: left;
+    padding: 0 30px 0px 30px;
+    margin-right: 500px;
+}
+
+.header-list li {
+    float: left;
+    margin-right: 105px;
+    padding-top: 7px;
+}
+
+.header-list a {
+    color: white;
+}
+
+.judul {
+    background-image: url(https://id-id.learn.canva.com/wp-content/uploads/sites/13/2018/01/color-tips.jpg);
+    background-size: cover;
+    height: 560px;
+}
+
+.judul h1 {
+    font-size: 80px;
+    margin-top: 80px;
+    padding-top: 60px;
+    letter-spacing: 3px;
+}
+
+.judul p {
+    font-size: 40px;
+}
+
+.judul a {
+    font-size: 36px;
+    color: white;
+    background-color: green;
+    width: 320px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: block;
+    border-radius: 4px;
+}
+
+.judul h1,
+.judul p,
+.judul a {
+    opacity: 0.8;
+    text-align: center;
+}
+
+.judul a:hover {
+    opacity: 1;
+}
+
+.konten-utama {
+    background-color: #f7f7f7;
+    height: 1000px;
+    margin: 50px 0;
+    padding: 20px 40px;
+}
+
+.pilihan-materi {
+    padding-left: 20px;
+    margin: 0 0 70px 200px;
+    border: 2px solid black;
+    width: 550px;
+    height: 550px;
+}
+
+.pilihan-materi input {
+    cursor: pointer;
+}
+
+.pilihan-materi button {
+    font-size: 22px;
+    width: 130px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.alert {
+    color: red;
+    font-size: 18px;
+}
+
+.tombol-materi {
+    display: flex;
+    margin-top: 150px;
+}
+
+.tombol-materi li {
+    font-size: 40px;
+    color: white;
+    flex: auto;
+    text-align: center;
+    margin-right: 50px;
+    height: 70px;
+    line-height: 70px;
+    opacity: 0.9;
+}
+
+.materi1,
+.materi2,
+.materi3,
+.materi4 {
+    background-color: #f7f7f7;
+    box-shadow: 0 10px #f7f7f7;
+}
+
+.tombol-materi li:hover {
+    opacity: 1;
+}
+
+.tombol-materi li:active {
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(4, 4, 56);
+    height: 180px;
+}
+
+.footer-title {
+    font-size: 35px;
+    float: left;
+    padding: 0 0 0 30px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding: 0 170px 30px 0;
+}
+
+.footer-list a {
+    color: white;
+}
